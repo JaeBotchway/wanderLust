@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webCalculator</title>
+</head>
+<body>
+    <form action="/answer" method="POST">
+        <h1>Perform Your Calculation</h1><br>
+        <label for="operation">operation</label><br>
+        <select name="operation" id="operation">
+            <option value="add">add</option>
+            <option value="product">product</option>
+        </select><br><br>
+        <label for="number1">FirstNumber</label><br>
+        <input type="number" name="number1" id="number1"><br><br>
+        <label for="number2">SecondNumber</label><br>
+        <input type="number" name="number2" id="number2"><br><br>
+        <input type="submit" value=" Get Result">
+    </form>
+</body>
+</html>
